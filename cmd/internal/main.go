@@ -42,7 +42,7 @@ var genCmd = &cobra.Command{
 
 		err = gen.GenerateTypescript(s, "web/src/lib/api")
 		if err != nil {
-			log.Fatal("Failed to generate golang code", "err", err)
+			log.Fatal("Failed to generate web api code", "err", err)
 		}
 	},
 }
